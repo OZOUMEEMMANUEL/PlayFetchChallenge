@@ -17,7 +17,7 @@ public class PlayerControllerX : MonoBehaviour
             Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
             countDown = 1;
         }
-        //controls the cooldown time to spawn the dog
+        //controls the cooldown time to spawn the dogs
         if(countDown >= 0)
         {
             countDown -= Time.deltaTime;
